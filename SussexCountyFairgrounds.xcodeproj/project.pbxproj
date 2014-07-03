@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8434001F19652E36009D0CA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8434001E19652E36009D0CA7 /* Foundation.framework */; };
+		8434002119652E36009D0CA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8434002019652E36009D0CA7 /* CoreGraphics.framework */; };
+		8434002319652E36009D0CA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8434002219652E36009D0CA7 /* UIKit.framework */; };
+		8434002919652E36009D0CA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8434002719652E36009D0CA7 /* InfoPlist.strings */; };
+		8434002B19652E36009D0CA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8434002A19652E36009D0CA7 /* main.m */; };
+		8434002F19652E36009D0CA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8434002E19652E36009D0CA7 /* AppDelegate.m */; };
+		8434003119652E36009D0CA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8434003019652E36009D0CA7 /* Images.xcassets */; };
+		8434003819652E36009D0CA7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8434003719652E36009D0CA7 /* XCTest.framework */; };
+		8434003919652E36009D0CA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8434001E19652E36009D0CA7 /* Foundation.framework */; };
+		8434003A19652E36009D0CA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8434002219652E36009D0CA7 /* UIKit.framework */; };
+		8434004219652E36009D0CA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8434004019652E36009D0CA7 /* InfoPlist.strings */; };
+		8434004419652E36009D0CA7 /* SussexCountyFairgroundsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8434004319652E36009D0CA7 /* SussexCountyFairgroundsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8434003B19652E36009D0CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8434001319652E36009D0CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8434001A19652E36009D0CA7;
+			remoteInfo = SussexCountyFairgrounds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8434001B19652E36009D0CA7 /* SussexCountyFairgrounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SussexCountyFairgrounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8434001E19652E36009D0CA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8434002019652E36009D0CA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8434002219652E36009D0CA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8434002619652E36009D0CA7 /* SussexCountyFairgrounds-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SussexCountyFairgrounds-Info.plist"; sourceTree = "<group>"; };
+		8434002819652E36009D0CA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8434002A19652E36009D0CA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8434002C19652E36009D0CA7 /* SussexCountyFairgrounds-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SussexCountyFairgrounds-Prefix.pch"; sourceTree = "<group>"; };
+		8434002D19652E36009D0CA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8434002E19652E36009D0CA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8434003019652E36009D0CA7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8434003619652E36009D0CA7 /* SussexCountyFairgroundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SussexCountyFairgroundsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8434003719652E36009D0CA7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8434003F19652E36009D0CA7 /* SussexCountyFairgroundsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SussexCountyFairgroundsTests-Info.plist"; sourceTree = "<group>"; };
+		8434004119652E36009D0CA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8434004319652E36009D0CA7 /* SussexCountyFairgroundsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SussexCountyFairgroundsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8434001819652E36009D0CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8434002119652E36009D0CA7 /* CoreGraphics.framework in Frameworks */,
+				8434002319652E36009D0CA7 /* UIKit.framework in Frameworks */,
+				8434001F19652E36009D0CA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8434003319652E36009D0CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8434003819652E36009D0CA7 /* XCTest.framework in Frameworks */,
+				8434003A19652E36009D0CA7 /* UIKit.framework in Frameworks */,
+				8434003919652E36009D0CA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8434001219652E36009D0CA7 = {
+			isa = PBXGroup;
+			children = (
+				8434002419652E36009D0CA7 /* SussexCountyFairgrounds */,
+				8434003D19652E36009D0CA7 /* SussexCountyFairgroundsTests */,
+				8434001D19652E36009D0CA7 /* Frameworks */,
+				8434001C19652E36009D0CA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8434001C19652E36009D0CA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8434001B19652E36009D0CA7 /* SussexCountyFairgrounds.app */,
+				8434003619652E36009D0CA7 /* SussexCountyFairgroundsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8434001D19652E36009D0CA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8434001E19652E36009D0CA7 /* Foundation.framework */,
+				8434002019652E36009D0CA7 /* CoreGraphics.framework */,
+				8434002219652E36009D0CA7 /* UIKit.framework */,
+				8434003719652E36009D0CA7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8434002419652E36009D0CA7 /* SussexCountyFairgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				8434002D19652E36009D0CA7 /* AppDelegate.h */,
+				8434002E19652E36009D0CA7 /* AppDelegate.m */,
+				8434003019652E36009D0CA7 /* Images.xcassets */,
+				8434002519652E36009D0CA7 /* Supporting Files */,
+			);
+			path = SussexCountyFairgrounds;
+			sourceTree = "<group>";
+		};
+		8434002519652E36009D0CA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8434002619652E36009D0CA7 /* SussexCountyFairgrounds-Info.plist */,
+				8434002719652E36009D0CA7 /* InfoPlist.strings */,
+				8434002A19652E36009D0CA7 /* main.m */,
+				8434002C19652E36009D0CA7 /* SussexCountyFairgrounds-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8434003D19652E36009D0CA7 /* SussexCountyFairgroundsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8434004319652E36009D0CA7 /* SussexCountyFairgroundsTests.m */,
+				8434003E19652E36009D0CA7 /* Supporting Files */,
+			);
+			path = SussexCountyFairgroundsTests;
+			sourceTree = "<group>";
+		};
+		8434003E19652E36009D0CA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8434003F19652E36009D0CA7 /* SussexCountyFairgroundsTests-Info.plist */,
+				8434004019652E36009D0CA7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8434001A19652E36009D0CA7 /* SussexCountyFairgrounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8434004719652E36009D0CA7 /* Build configuration list for PBXNativeTarget "SussexCountyFairgrounds" */;
+			buildPhases = (
+				8434001719652E36009D0CA7 /* Sources */,
+				8434001819652E36009D0CA7 /* Frameworks */,
+				8434001919652E36009D0CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SussexCountyFairgrounds;
+			productName = SussexCountyFairgrounds;
+			productReference = 8434001B19652E36009D0CA7 /* SussexCountyFairgrounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8434003519652E36009D0CA7 /* SussexCountyFairgroundsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8434004A19652E36009D0CA7 /* Build configuration list for PBXNativeTarget "SussexCountyFairgroundsTests" */;
+			buildPhases = (
+				8434003219652E36009D0CA7 /* Sources */,
+				8434003319652E36009D0CA7 /* Frameworks */,
+				8434003419652E36009D0CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8434003C19652E36009D0CA7 /* PBXTargetDependency */,
+			);
+			name = SussexCountyFairgroundsTests;
+			productName = SussexCountyFairgroundsTests;
+			productReference = 8434003619652E36009D0CA7 /* SussexCountyFairgroundsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8434001319652E36009D0CA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "TCG S/W Inc.com";
+				TargetAttributes = {
+					8434003519652E36009D0CA7 = {
+						TestTargetID = 8434001A19652E36009D0CA7;
+					};
+				};
+			};
+			buildConfigurationList = 8434001619652E36009D0CA7 /* Build configuration list for PBXProject "SussexCountyFairgrounds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8434001219652E36009D0CA7;
+			productRefGroup = 8434001C19652E36009D0CA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8434001A19652E36009D0CA7 /* SussexCountyFairgrounds */,
+				8434003519652E36009D0CA7 /* SussexCountyFairgroundsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8434001919652E36009D0CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8434002919652E36009D0CA7 /* InfoPlist.strings in Resources */,
+				8434003119652E36009D0CA7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8434003419652E36009D0CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8434004219652E36009D0CA7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8434001719652E36009D0CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8434002F19652E36009D0CA7 /* AppDelegate.m in Sources */,
+				8434002B19652E36009D0CA7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8434003219652E36009D0CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8434004419652E36009D0CA7 /* SussexCountyFairgroundsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8434003C19652E36009D0CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8434001A19652E36009D0CA7 /* SussexCountyFairgrounds */;
+			targetProxy = 8434003B19652E36009D0CA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8434002719652E36009D0CA7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8434002819652E36009D0CA7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8434004019652E36009D0CA7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8434004119652E36009D0CA7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8434004519652E36009D0CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8434004619652E36009D0CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8434004819652E36009D0CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SussexCountyFairgrounds/SussexCountyFairgrounds-Prefix.pch";
+				INFOPLIST_FILE = "SussexCountyFairgrounds/SussexCountyFairgrounds-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8434004919652E36009D0CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SussexCountyFairgrounds/SussexCountyFairgrounds-Prefix.pch";
+				INFOPLIST_FILE = "SussexCountyFairgrounds/SussexCountyFairgrounds-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8434004B19652E36009D0CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SussexCountyFairgrounds.app/SussexCountyFairgrounds";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SussexCountyFairgrounds/SussexCountyFairgrounds-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SussexCountyFairgroundsTests/SussexCountyFairgroundsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8434004C19652E36009D0CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SussexCountyFairgrounds.app/SussexCountyFairgrounds";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SussexCountyFairgrounds/SussexCountyFairgrounds-Prefix.pch";
+				INFOPLIST_FILE = "SussexCountyFairgroundsTests/SussexCountyFairgroundsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8434001619652E36009D0CA7 /* Build configuration list for PBXProject "SussexCountyFairgrounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8434004519652E36009D0CA7 /* Debug */,
+				8434004619652E36009D0CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8434004719652E36009D0CA7 /* Build configuration list for PBXNativeTarget "SussexCountyFairgrounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8434004819652E36009D0CA7 /* Debug */,
+				8434004919652E36009D0CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8434004A19652E36009D0CA7 /* Build configuration list for PBXNativeTarget "SussexCountyFairgroundsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8434004B19652E36009D0CA7 /* Debug */,
+				8434004C19652E36009D0CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8434001319652E36009D0CA7 /* Project object */;
+}
