@@ -7,7 +7,7 @@
 //
 
 #import "InstagramActivity.h"
-
+#import "AppDelegate.h"
 @implementation InstagramActivity
 
 - (NSString *)activityType
