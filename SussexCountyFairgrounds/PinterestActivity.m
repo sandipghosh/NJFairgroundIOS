@@ -45,7 +45,7 @@ NSArray *arr;
     NSLog(@"%s",__FUNCTION__);
     NSLog(@"items :: %@", activityItems);
     
-    pinterest = [[Pinterest alloc]initWithClientId:pinterestclientid];
+    pinterest = [[Pinterest alloc]initWithClientId:@"1445350"];
     
     arr = [NSArray arrayWithArray:activityItems];
 }
